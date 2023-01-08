@@ -1,0 +1,89 @@
+{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    }
+    .btn-primary{
+        color: #fff;
+        font-weight: 20px;
+        font-size: 20px;
+        height:64px ;
+        border-radius: 5px;
+        background-color: #FD6E0A;
+        border: 0;
+        padding: 18px 35px;
+    }
+    .header{
+       background-color:#FFF8F3 ; 
+       background-image:url('../images/header_bg.png'),url('../images/developer.png') ;
+       background-repeat: no-repeat;
+       background-position: bottom right,left;
+    }
+    .banner{
+        margin: 0 200px;
+        display: flex;
+        align-items: center;}
+        .banner-title{
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 76px;
+text-align: right
+         }
+         .banner-description{
+           color: #757575;
+           font-size: 18px;
+           margin: 30px; 
+         }
+            .my-plan{
+                margin-top: 130px;
+                }
+                .skil-container{
+                    display: flex;
+                    gap: 24px;
+                }
+                .skil{
+                    background: #ffff;
+                    box-shadow: 0px 6px 50px;
+                    border-radius: 5px;
+                    padding: 30px;
+                }
+                .skil-title{
+                    position:centre;
+                    font-size: 20px;
+                    font-weight:700;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                    
+                }
+                .skil-description{
+                   color: #fff; 
+                }
+                /* resume */
+                .resume-content{
+                    display: flex;
+                    gap: 24px;
+                    }
+                    .resume-title{
+                        font-weight: 700;
+                        font-size: 25px;
+                        color: #474747;
+                        margin-bottom: 10px;
+                    }
+                    
+                    .resume-subtitle{
+                        color:#757575 ;
+                        font-weight: 600;
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                    }
+                    .resume-description{
+                        color: #757575;
+                    }
+                    .resume-item{
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                    }
+                    .resume-button{
+                        margin-top: 50px;
+                        text-align: center;
+                    }
